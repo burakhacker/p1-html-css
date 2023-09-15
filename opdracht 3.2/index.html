@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav></nav>
+    <main>
+        <header></header>
+        <div class="forms">
+            <form action="name">vul hier je naam in</form>
+            <input type="name" id="name" name="name" pattern="[a-z]">
+
+            <form action="password">vul hier je wachtwoord in</form>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <section class="gender">
+            <label for="gender">kies je gender</label> <select name="gender" id="gender">
+                <option value="male">man</option>
+                <option value="female">vrouw</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="house">House:</label>
+            <input type="text" id="house" name="house"><br><br>
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}\s?[a-zA-Z]{2}"
+                title="Please enter a valid postcode" required>
+        </section>
+
+        <div>
+            <label for="city">stad:</label>
+            <input type="text" id="city" name="city">
+        </div>
+
+        <div>
+            <label for="land">land:</label>
+            <input type="text" id="land" name="land">
+        </div>
+
+        <div>
+            <label for="bsn_nummer">bsn nummer:</label>
+            <input type="text" id="bsn_nummer" name="bsn_nummer" minlength="1" maxlength="9">
+        </div>
+
+        <section class="vacation_land">
+            <label for="vacation_land">kies je vakantie land</label> <select name="vacation_land" id="vacation_land">
+                <option value="turkije">turkije</option>
+                <option value="duitsland">duitsland</option>
+                <option value="italie">italie</option>
+                <option value="spanje">spanje</option>
+            </select>
+        </section>
+
+        <div>
+            <label for="datum">datum van vertrek</label>
+            <input type="date" id="datum" name="datum" min="2023-09-15" required>
+        </div>
+
+        <div>
+            <label for="datum">datum van terugkomst</label>
+            <input type="date" id="datum" name="datum" min="2023-09-15" required>
+        </div>
+
+        <section>
+            <label for="persons">kies het aantal personen</label> <select name="persons" id="persons">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </section>
+
+        <button>boek nu</button>    <form method="post" action="ersoyb746@gmail.com">
+            <a href="https://mail.google.com/"><input type="submit" value="Send Email" /></a>
+        </form>
+
+        <div>
+            <label for="Email">maak hier je Email aan</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="password">maak hier een wachtwoord aan</label>
+            <input type="password" id="password" name="password">
+        </div>
+    </main>
+</body>
+
+</html>

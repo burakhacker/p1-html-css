@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Store</h1>
+    </header>
+    <main>
+        <div class="product">
+            <img src="./lambo.jpg" alt="Product Image">
+            <h2>Product Name</h2>
+            <p>Description: Lamborghini </p>
+            <p>Price: $320,000</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <!-- PayPal Business Email -->
+                <input type="hidden" name="business" value="ersoyb746@gmail.com">
+                <!-- Product Information -->
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="item_name" value="Product Name">
+                <input type="hidden" name="amount" value="320000">
+                <input type="hidden" name="currency_code" value="EUR">
+                <!-- Buyer Information -->
+                <input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="rm" value="2">
+                <input type="hidden" name="return" value="http://yourwebsite.com/success.html">
+                <input type="hidden" name="cancel_return" value="http://yourwebsite.com/cancel.html">
+                <!-- PayPal Button -->
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online">
+            </form>
+        </div>
+    </main>
+
+    <div>
+        <label for="age">leeftijd</label>
+        <input type="number" name="age">
+    </div>
+    <footer>
+        <p>&copy; 2023 bursko zijn bedrijf</p>
+    </footer>
+</body>
+</html>

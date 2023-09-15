@@ -1,0 +1,25 @@
+.btnLink{
+    color: black;
+    display: inline-block;
+    background-color: white;
+    text-underline-offset: 1px;
+    font-style: italic;
+    padding-left: 100px;
+
+}
+
+.fade{
+    background-color: white;
+ color: black;
+}
+
+.fade:hover{
+    color: blue;
+    transition: 1s;
+}
+
+.fade:focus
+.fade:active{
+    background-color: aqua;
+    transition: 1s;
+}
