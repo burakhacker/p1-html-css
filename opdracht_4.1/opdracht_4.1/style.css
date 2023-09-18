@@ -1,6 +1,6 @@
 h1{
     font-size: 24px;
-    color: blue;
+    color: white;
     font-weight: bold;
     font-family: italic;
 }
@@ -23,9 +23,35 @@ p{
 
 .first_par{
     font-weight: bold;
+    color: white;
 }
 
 a{
     color: #8A2BE2;
     text-decoration: none;
 }
+
+header{
+    font-size: 40px;
+    background-image: url("./Black_colour.jpg");
+}
+
+img{
+    size: 10px;
+    min-width: 150px;
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+article{
+    border-left-width: 4px;
+    border-left-color: black;
+}
+
+body{overflow-x: hidden;}
+
+
