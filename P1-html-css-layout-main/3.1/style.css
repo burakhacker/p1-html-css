@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Goldman", cursive;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #18810f;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100; 
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav img {
+  width: 5vw;
+}
+
+.logo{
+  font-size: 150%;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  margin-left: 750px;
+}
+
+h1{
+  position: fixed;
+  margin-left: 750px;
+}
+
+img{
+    float: left; 
+    margin-right: 10px;
+}
+
+.paragraaf{
+  width: 100%;
+}
